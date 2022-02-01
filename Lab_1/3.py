@@ -1,0 +1,7 @@
+# -*- coding: cp1251 -*-
+
+print("¬ведите номер карты:", end=" ")
+card = input()
+
+hiddenCard = card.replace(card[4:12], "********")
+print(hiddenCard)
