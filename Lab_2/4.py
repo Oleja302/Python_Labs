@@ -2,7 +2,7 @@ import re
 
 print("Введите название файла: ")
 fileName = input()
-template = re.compile(r"(\(\d{3}\)\d{3}\d{2}\d{2})|(\d{3}\)\d{3}-\d{2}-\d{2})")
+template = re.compile(r"(\(\d{3}\)\d{3}\d{2}\d{2})|(\(\d{3}\)\d{3}-\d{2}-\d{2})")
 
 with open(fileName, "r", encoding="utf8") as file:
     numbers = file.readlines()
