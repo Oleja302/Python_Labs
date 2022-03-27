@@ -1,0 +1,1 @@
+start mongod --dbpath D:\Programming\Python\Python_Labs\Lab_4\mongodb
